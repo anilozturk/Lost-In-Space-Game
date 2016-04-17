@@ -1,0 +1,60 @@
+
+@font-face {
+	font-family: XPED_Bold;
+	src : url(XPED_Bold.ttf);
+}
+
+#game_canvas {
+	background: #000;
+}
+
+#score {
+	position: absolute;
+	margin: 20px 0 0 20px;
+	color: yellow;
+	font-family: XPED_Bold;
+	font-size: 16pt;
+}
+
+#startScreen {
+	position: absolute;
+}
+
+#startButton {
+	position: absolute;
+	margin: 190px 0 0 220px;
+	font-family: XPED_Bold;
+}
+
+#menuButton {
+	position: absolute;
+	margin: 190px 0 0 190px;
+	background: yellow;
+	font-family: XPED_Bold;
+}
+
+#gameOver {
+	position: absolute;
+	margin: 150px 0 0 180px;
+	color: red;
+	font-family: XPED_Bold;
+	font-size: 20pt;
+}
+
+#restart {
+	position: absolute;
+	margin: 190px 0 0 250px;
+	background: yellow;
+	font-family: XPED_Bold;
+}
+
+#highScore {
+	position: absolute;
+	margin: 230px 0 0 20px;
+	color: #fff;
+	font-family: XPED_Bold;
+}
+
+#hS {
+	padding-left: 10px;
+}
